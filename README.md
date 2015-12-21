@@ -50,3 +50,4 @@ MIT
 [david-image]: http://img.shields.io/david/weflex/react-couple.svg?style=flat-square
 [david-url]: https://david-dm.org/weflex/react-couple
 [downloads-image]: http://img.shields.io/npm/dm/react-couple.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/react-couple
