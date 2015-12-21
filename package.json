@@ -1,6 +1,6 @@
 {
   "name": "react-couple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Coupling your children(component) in your parent component in React",
   "main": "index.js",
   "scripts": {
