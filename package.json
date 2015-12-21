@@ -1,0 +1,23 @@
+{
+  "name": "react-couple",
+  "version": "1.0.0",
+  "description": "Coupling your children(component) in your parent component in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/react-couple.git"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weflex/react-couple/issues"
+  },
+  "homepage": "https://github.com/weflex/react-couple#readme"
+}
