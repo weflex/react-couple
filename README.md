@@ -21,7 +21,7 @@ const couple = require('react-couple');
 class ExampleApp extends React.Component {
   render() {
     <div>
-      <input ref={couple.bind(this)} 
+      <input name="search" ref={couple.bind(this)} 
         onChange={this.onChange.bind(this)} 
       />
     </div>
@@ -29,10 +29,28 @@ class ExampleApp extends React.Component {
   onChange(evt) {
     // when you inputs something, just directly access to it
     // by the following way
-    console.log(this.components.input.value);
+    console.log(this.components.search.value);
   }
 }
 ```
+
+By default, if you can declear your children just in HTML tag, like only 1 input, then
+the React-Couple will use the tag name as its key.
+
+```
+<input ref={couple.bind(this)} />
+```
+
+Will put the node to `this.components.input`.
+
+For customized component with a Upper case name like:
+
+```
+<SearchInput ref={couple.bind(this)} />
+```
+
+will put the node to `this.components.searchInput`. (Notice that the first character is in lower case)
+
 
 ## How it works
 

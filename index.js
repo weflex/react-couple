@@ -5,7 +5,7 @@ function notIn (key, val) {
 }
 
 function couple (node) {
-  let componentName = node.name;
+  let componentName = node.props.name;
   if (!componentName) {
     const constructorName = node.constructor.name;
     componentName = constructorName[0].toLowerCase() +
